@@ -54,3 +54,15 @@ const createSVG = (shapeType, shapeColor, text, textColor) => {
 
     return shape.render();
 };
+
+// Write to SVG file
+    const saveSVGToFile = (svgContent) => {
+        fs.writeFile('logo.svg', svgContent, (err) => {
+          if (err) {
+            console.error('Error writing to SVG file:', err);
+          } else {
+            console.log('Created logo successfully!');
+          }
+        });
+      };
+      
