@@ -22,10 +22,10 @@ This is a simple logo generator that generates SVG files containing a logo based
 [Video Demo Link](https://drive.google.com/file/d/1IS9tHp5lGHIYXS9u89JUktmweeDDtha1/)
 
 ## Command line input
-![Input](./demos/command-line.png)
+![Input](./Images/input.png)
 
-## Markdown Output
-![Output](./demos/output.png)
+## SVG Output
+![Output](./Images/UCB-example.png)
 
 ## Installation 
 
