@@ -66,6 +66,7 @@ const createSVG = (shapeType, shapeColor, text, textColor) => {
         });
       };
 
+// Initialize app
     const init = async () => {
         try {
           const userAnswers = await userInput();
