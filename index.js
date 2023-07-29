@@ -65,4 +65,20 @@ const createSVG = (shapeType, shapeColor, text, textColor) => {
           }
         });
       };
+
+    const init = async () => {
+        try {
+          const userAnswers = await userInput();
+          const svgContent = createSVG(
+            userAnswers.shape,
+            userAnswers.shapeColor,
+            userAnswers.text,
+            userAnswers.textColor
+          );
+          saveSVGToFile(svgContent);
+        } catch (error) {
+          console.error('An error occurred:', error.message);
+        }
+      };
       
+      init();
