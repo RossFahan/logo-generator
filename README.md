@@ -17,9 +17,9 @@ This is a simple logo generator that generates SVG files containing a logo based
 
 
 ## Video Demo
-![VidDemo](./demos/DemoGif.gif)
+![VidDemo](./Images/demo.gif)
 
-[Video Demo Link](https://drive.google.com/file/d/1IS9tHp5lGHIYXS9u89JUktmweeDDtha1/)
+[Video Demo Link](https://drive.google.com/file/d/17BGbxT8boqfsNkYvcN7qiy00abYwFCBH/view?usp=sharing)
 
 ## Command line input
 ![Input](./Images/input.png)
@@ -30,6 +30,12 @@ This is a simple logo generator that generates SVG files containing a logo based
 ## Installation 
 
 This application uses Node.JS, please install Node.js and initialize the applicaiton by running "% node index.js" from the command line within the root directory.
+
+## Testing 
+
+You may test this file via JEST using "$ npm run test"
+The expected output is below:
+![testOutput](./Images/Tests.png)
 
 ## Learning Points 
 
