@@ -1,3 +1,8 @@
-<circle xmlns="http://www.w3.org/2000/svg" cx="150" cy="150" r="80" fill="blue">
-        <text x="150" y="150" text-anchor="middle" fill="red" font-size="40">DOG</text>
-      </circle>
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+      
+        <polygon points="50,200 250,200 150,50" fill="green" />
+
+        <text x="150" y="150" text-anchor="middle" fill="grey" font-size="40">ROS</text>
+
+        </svg>
+      
