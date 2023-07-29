@@ -1,0 +1,3 @@
+<circle xmlns="http://www.w3.org/2000/svg" cx="150" cy="150" r="80" fill="blue">
+        <text x="150" y="150" text-anchor="middle" fill="red" font-size="40">DOG</text>
+      </circle>
